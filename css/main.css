@@ -270,6 +270,7 @@ body > div#content > div > div > a.round { /* Posicion Imagen Redonda */
 	height: 40px;
 	margin: 16px 0 16px 16px;
 	display: block;
+	cursor: default;
 }
 
 body > div#content > div > div > div.text > b { /* Color texto Nombre */
