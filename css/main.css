@@ -367,6 +367,46 @@ body > div#content > div > div p:active {
 	background: rgba(153, 153, 153, 0.2) !important;
 }
 
+/* Contacto -------------------------- */
+form {
+	-webkit-user-select: none; /* No seleccionable ---> */
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;         /* <--- No seleccionable */
+}
+
+form > h3 {
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.4);
+	cursor: default;
+}
+
+form > input[type=text] {
+	width: 200px;
+}
+
+body > div#content > div > div > form > input, textarea {
+	width: 80%;
+	height: 100px;
+}
+
+form > input[type=submit] {
+	font: 14px Roboto;
+	margin-top: 5px;
+	padding: 8px;                     /* Ancho boton */
+	font-weight: 500;                 /* Ancho texto */
+	border: solid #FFF;               /* Borde arriba y laterales */
+	border-bottom: 0px solid #FFF;    /* Borde abajo */
+	background-position: 20px 20px;
+	background-color: #FFF;           /* Color fondo */
+	cursor: pointer;
+}
+
+form > input[type=submit]:hover { /* Color del Boton al pasar el cursor */
+	background: #eee;
+}
+/* Contacto -------------------------- */
+
 @media screen and (min-width: 300px) { /* Cambiado de 500 a 300 */
 	body > div#navbar > div#nav { /* Cambiado de 320 a 300 de -320 a -300 */
 		width: 300px;
