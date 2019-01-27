@@ -38,11 +38,11 @@ body > div#navbar {
 	background: #fff;
 	border-bottom: none !important;
 	transition: height 0.2s ease-out;
+	cursor: default;
 	-webkit-user-select: none; /* No seleccionable ---> */
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;         /* <--- No seleccionable */
-	cursor: default;
 }
 /* Barra ----------------------------- */
 /* Menu ------------------------------ */
@@ -271,6 +271,10 @@ body > div#content > div > div > a.round { /* Posicion Imagen Redonda */
 	margin: 16px 0 16px 16px;
 	display: block;
 	cursor: default;
+	-webkit-user-select: none; /* No seleccionable ---> */
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;         /* <--- No seleccionable */
 }
 
 body > div#content > div > div > div.text > b { /* Color texto Nombre */
