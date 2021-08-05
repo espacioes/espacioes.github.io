@@ -1,77 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<title>Espacioes</title>
+	<title>espacioes</title>
 	<link rel="icon" href="img/favicon.png">
-	<link rel="stylesheet" type="text/css" href="css/main.css" />
-	<link rel="stylesheet" type="text/css" href="css/colors_purple.css" />
-	<meta name="theme-color" content="#ffffff" />
+	<link rel="stylesheet" href="css/main.css">
+	<meta charset="utf-8">
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script src="No javascript" type="text/javascript"></script>
 </head>
 <body>
-	<div id="navbar" class="d2"> <!-- Sombra -->
-		<a href="#" id="close"><div></div></a> <!-- Click en la ventana para cerrar Menu -->
-		<a href="#navbar" id="open"><div>&#9776;</div></a> <!-- Boton Menu -->
+	<div id="barra">
+		<a href="#" id="cerrar_menu"><div></div></a>
+		
+		<a href="#barra" id="abrir_menu">
+			<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+    			<path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+			</svg>
+		</a>
+		<div id="titulo">Política de privacidad</div>
 
-		<div id="title">Política de privacidad</div> <!-- Titulo barra -->
-		<label for="search" class="btn"><b>&#9906;</b></label> <!-- Boton Busqueda -->
-
-		<form action="http://www.google.com/search" method="get"> <!-- Accion Buscar -->
-			<input type="text" name="search" id="search" placeholder="Buscar.." /> <!-- Busqueda -->
-			<label class="btn">&#215;</label> <!-- Boton Cerrar Busqueda -->
-			<input type="hidden" name="sitesearch" value="https://espacioes.github.io/privacy.html" />
-		</form>
-
-		<div id="nav"> <!-- Menu -->
-			<label class="color" class="notranslate"> <!-- Cabeza del Menu -->
-				<div>espacioes</div>
+		<div id="cabeza_menu" class="notranslate">
+			<label>
+				espacioes
 			</label>
-			<div> <!-- Contenido del Menu -->
-				<a class="subtitulo">Navegación</a>
-				<a href="pagina1.html">
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-						<path d="M9.01 14H2v2h7.01v3L13 15l-3.99-4v3zm5.98-1v-3H22V8h-7.01V5L11 9l3.99 4z"/>
-					</svg>
-					Apk Mod
-				</a>
-				<a href="privacy.html" id="current"> <!-- Pagina actual en el Menu -->
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-						<path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-6 15h-2v-2h2v2zm0-4h-2V8h2v6zm-1-9c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/>
-					</svg>
-					Política de privacidad
-				</a>
-			</div>
-			<div>
-				<a class="subtitulo">Más</a>
-				<a href="#">
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 18 18">
-						<path d="M15 8.25H5.87l4.19-4.19L9 3 3 9l6 6 1.06-1.06-4.19-4.19H15v-1.5z"/>
-					</svg>
-					Atrás
-				</a>
-			</div>
+		</div>
+		<div id="menu">
+			<a href="pagina1.html">
+				Control Botones
+			</a>
+			<a id="separador"></a>
+			<a href="privacy.html" id="actual">
+				Política de privacidad
+			</a>
+			<a id="separador"></a>
+			<a href="#">
+				<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+    				<path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+				</svg>
+				Atrás
+			</a>
 		</div>
 	</div>
-
-	<div id="content">
-		<div>
-			<div>
-				<a class="round" style="background-image: url('https://avatars2.githubusercontent.com/u/46869922?s=40&v=4')"></a>
-				<div class="text" class="notranslate"><b>espacioes</b><br/>Actualizado el 23 de Enero, 2019</div>
-				<p class="line24">
-					<b>Política de privacidad</b><br/>
-					Las aplicaciones compiladas nunca me enviarán ningún dato<br/>
-					pero pueden recopilar datos por terceros por el autor original o mods de la aplicación.<br/><br/>
-					Yo no soy programador solo hago pequeñas modificaciones para mi uso particular,<br/>
-					es decir que si descarga una aplicación estará usando la misma aplicación que yo utilizo<br/>
-					habitualmente en mi dispositivo Android.<br/><br/>
-					<i>Créditos:</i><br/>
-					Gracias a <c>Amir Zaidi</c> por compartir el código html y css en la comunidad GitHub.<br/>
-				</p>
-			</div>
+	
+	<div id="tarjeta">
+		<a class="round" style="background-image: url('https://avatars2.githubusercontent.com/u/46869922?s=40&v=4')"></a>
+		<div id="titulo">
+			<b class="notranslate">espacioes</b><br/>
+			<a>Actualizado el 23 de Enero, 2019</a>
 		</div>
+		<p>
+			<b>Cambios</b><br/>
+			Esto es una prueba aaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaa aaaaaaaa aaaaaaaa aaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaa<br/>
+			Texto de cambios
+		</p>
 	</div>
 </body>
 </html>
