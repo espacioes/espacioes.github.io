@@ -25,8 +25,8 @@ body, input, textarea, select, option, button {
 	color: rgb(64, 64, 64);
 }
 
-
 body > div#barra {
+	position: relative;
 	width: 100%;
 	height: 60px;
 	margin-top: 0px;
@@ -77,11 +77,8 @@ body > div#barra > div#cabeza_menu {
 	height: 100%;
 	margin-left: -300px;
 	background: #fff;
-	
-	top: 20px;
-    z-index: 1;
-	
 	position: fixed;
+	z-index: 1;
 	font-weight: 500;
 	transition: margin-left 0.2s ease-out, box-shadow 0.2s ease-out;
 }
@@ -92,11 +89,8 @@ body > div#barra > div#menu {
 	margin-left: -300px;
 	top: 120px;
 	background: #fff;
-	
-	top: 140px;
-    z-index: 1;
-	
 	position: fixed;
+	z-index: 2;
 	overflow: auto;
 	font-weight: 500;
 	transition: margin-left 0.2s ease-out;
