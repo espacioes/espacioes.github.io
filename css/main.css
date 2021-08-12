@@ -177,8 +177,7 @@ body > div#nav > div#menu > div#opciones > a#actual {
 
 body > div#tarjetas {
 	width: 100%;
-	margin-top: 78px;
-	transition: margin-top 0.2s ease-out;
+	margin-top: 18px;
 }
 
 body > div#tarjetas > div#tarjeta {
