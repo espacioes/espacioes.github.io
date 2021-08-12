@@ -16,6 +16,8 @@
 
 body {
 	margin: 0;
+	height:100%;
+	overflow:auto
 	color: rgb(64, 64, 64);
 	background: #f7f7f7;
 	font: 14px Roboto;
