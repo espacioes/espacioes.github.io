@@ -30,7 +30,7 @@ body a {
 body > div#nav {
 	width: 100%;
 	height: 60px;
-	top: 0px;
+	margin-top: -78px;
 	margin-left: 0px;
 	margin-right: 0px;
 	background: #fff;
@@ -72,7 +72,7 @@ body > div#nav > a#abrir_menu > svg {
 body > div#nav > a#titulo {
 	height: 60px;
 	margin-left: 60px;
-	color: rgba(0, 0, 0, 0.60);
+	color: rgba(0, 0, 0, 0.50);
 	position: absolute;
 	font-size: 20px;
 	display: flex;
@@ -140,7 +140,7 @@ body > div#nav > div#menu > div#opciones {
 body > div#nav > div#menu > div#opciones > a {
 	margin-right: 20px;
 	padding: 15px 20px 15px 20px;
-	color: rgba(0, 0, 0, 0.60);
+	color: rgba(0, 0, 0, 0.50);
 	background: #fff;	
 	border-radius: 0px 30px 30px 0px;
 	display: block;
