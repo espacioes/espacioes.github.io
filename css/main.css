@@ -29,14 +29,14 @@ body a {
 
 body > div#contenedor {
 	width: 100%;
-	height: 71px;      /* Espacio en la pagina Traductor de Google 61px + 10px */
-	margin-top: -10px; /* Espacio en la pagina Traductor de Google */
+	height: 61px;
+	margin-top: 0px;
 }
 
 body > div#contenedor > div#nav {
 	width: 100%;
 	height: 60px;
-	margin-top: 0px;
+	margin-top: -10px; /* Espacio en la pagina Traductor de Google */
 	padding-top: 10px; /* Espacio en la pagina Traductor de Google */
 	background: #fff;
 	border-bottom: 1px solid #e0e0e0;
@@ -86,7 +86,7 @@ body > div#contenedor > div#nav > a#titulo {
 body > div#contenedor > div#nav > a#cerrar_menu > div {
 	width: 100%;
 	height: 100%;
-	margin-top: 0px;
+	margin-top: -10px; /* Espacio en la pagina Traductor de Google */
 	padding-top: 10px; /* Espacio en la pagina Traductor de Google */
 	background: none;
 	position: fixed;
@@ -102,7 +102,7 @@ body > div#contenedor > div#nav:target > a#cerrar_menu > div {
 body > div#contenedor > div#nav > div#menu {
 	width: 240px;
 	height: 100%;
-	margin-top: 0px;
+	margin-top: -10px; /* Espacio en la pagina Traductor de Google */
 	margin-left: -240px;
 	padding-top: 10px; /* Espacio en la pagina Traductor de Google */
 	background: #fff;
