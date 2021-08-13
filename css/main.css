@@ -36,7 +36,7 @@ body > div#top_fixed {
 body > div#nav {
 	width: 100%;
 	height: 60px;
-	margin-top: -40px;
+	margin-top: -20px;
 	padding-top: 20px;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -89,6 +89,8 @@ body > div#nav > a#titulo {
 body > div#nav > a#cerrar_menu > div {
 	width: 100%;
 	height: 100%;
+	margin-top: -20px;
+	padding-top: 20px;
 	background: none;
 	position: fixed;
 	visibility: hidden;
@@ -99,6 +101,8 @@ body > div#nav > a#cerrar_menu > div {
 body > div#nav:target > a#cerrar_menu > div {
 	width: 100%;
 	height: 100%;
+	margin-top: -20px;
+	padding-top: 20px;
 	background: rgba(0, 0, 0, 0.50);
 	position: fixed;
 	visibility: visible;
@@ -109,6 +113,8 @@ body > div#nav:target > a#cerrar_menu > div {
 body > div#nav > div#menu {
 	width: 240px;
 	height: 100%;
+	margin-top: -20px;
+	padding-top: 20px;
 	margin-top: 0px;
 	margin-left: -240px;
 	background: #fff;
