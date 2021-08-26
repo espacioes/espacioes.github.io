@@ -18,9 +18,9 @@ body {
 	margin: 0;
 	color: rgb(64, 64, 64);
 	background: #f7f7f7;
-	font: 16px Roboto;
+	font: 14px Roboto;
 	font-weight: 400;
-	line-height: 22px;
+	line-height: 20px;
 }
 
 body a {
@@ -185,7 +185,7 @@ body > div#tarjetas {
 
 body > div#tarjetas > div#tarjeta {
 	width: calc(100% - 30px);
-	max-width: 1000px;
+	max-width: 800px;
 	min-width: 150px;
 	margin: 0 auto;
 	margin-bottom: 15px;
@@ -289,6 +289,11 @@ body > div#tarjetas > div#tarjeta > div#texto > p > a:hover {
 }
 
 @media screen and (min-width: 700px) {
+	body {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
 	body > div#tarjetas > div#tarjeta {
 		width: 80%;
 	}
